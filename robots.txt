@@ -1,0 +1,41 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ismartdigitalsolutions.github.io/Best-SEO-Company-in-Agra/sitemap.xml
+
+# Allow all important pages
+Allow: /index.html
+
+
+# Allow CSS and JS for proper rendering
+Allow: /*.css$
+Allow: /*.js$
+
+# Allow image files
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+
+# Disallow admin or private areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+
+# Crawl delay (optional - adjust based on server capacity)
+# Crawl-delay: 10
+
+# Specific directives for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 5
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 5
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 5
