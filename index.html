@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="iSmart Digital Solutions - Premier Digital Marketing Agency in Agra offering SEO, PPC, GMB, Social Media, and Website Development services.">
+    <meta name="keywords" content="digital marketing, SEO, web development, social media marketing, PPC, Google My Business, Agra">
+    <meta name="author" content="iSmart Digital Solutions">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="iSmart Digital Solutions | Digital Marketing Agency in Agra">
+    <meta property="og:description" content="Premier Digital Marketing Agency in Agra offering SEO, PPC, GMB, Social Media, and Website Development services.">
+    <meta property="og:image" content="assets/images/ismart-og-image.jpg">
+    <meta property="og:url" content="https://ismartdigitalsolutions.com">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="iSmart Digital Solutions | Digital Marketing Agency in Agra">
+    <meta name="twitter:description" content="Premier Digital Marketing Agency in Agra offering SEO, PPC, GMB, Social Media, and Website Development services.">
+    <meta name="twitter:image" content="assets/images/ismart-og-image.jpg">
+    <link rel="canonical" href="https://ismartdigitalsolutions.com">
+    <title>iSmart Digital Solutions | Digital Marketing Agency in Agra</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "iSmart Digital Solutions",
+      "image": "iSMART_logo_transparent.svg",
+      "url": "https://ismartdigitalsolutions.com",
+      "telephone": "+91-9876543210",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Digital Street",
+        "addressLocality": "Agra",
+        "addressRegion": "UP",
+        "postalCode": "282001",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 27.1767,
+        "longitude": 78.0081
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/ismartdigitalsolutions",
+        "https://www.twitter.com/ismartdigital",
+        "https://www.instagram.com/ismartdigitalsolutions",
+        "https://www.linkedin.com/company/ismart-digital-solutions"
+      ]
+    }
+    </script>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        /* Base styles */
+        :root {
+            --primary-color: #1E40AF;
+            --secondary-color: #F97316;
+            --background-color: #FFFFFF;
+            --text-color: #333333;
+            --light-gray: #F3F4F6;
+            --medium-gray: #E5E7EB;
+            --dark-gray: #6B7280;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Poppins', sans-serif;
+            margin-top: 0;
+        }
+        
+        /* Header styles */
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem 0;
+        }
+        
+        .logo img {
+            height: 50px;
+        }
+        
+        /* Button styles */
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.25rem;
+            text-decoration: none;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: white;
+            border: 1px solid var(--primary-color);
+        }
+        
+        .btn-secondary {
+            background-color: var(--secondary-color);
+            color: white;
+            border: 1px solid var(--secondary-color);
+        }
+        
+        .btn-outline {
+            background-color: transparent;
+            color: var(--primary-color);
+            border: 1px solid var(--primary-color);
+        }
+        
+        /* Hero section */
+        .hero {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+        
+        /* Footer styles */
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 3rem 0 1rem;
+        }
+    </style>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Preloader and Scroll to Top Button Styles -->
+    <style>
+        #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            z-index: 9999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid var(--medium-gray);
+            border-top: 4px solid var(--primary-color);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .scroll-up {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: 99;
+        }
+        
+        .scroll-up.active {
+            opacity: 1;
+        }
+    </style>
+    
+    <!-- Schema.org LocalBusiness Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "iSmart Digital Solutions",
+      "image": "https://ismartdigital.whf.bz/iSMART_logo_transparent.svg",
+      "url": "https://ismartdigital.whf.bz",
+      "telephone": "+91-8979205704",
+      "email": "support@ismartdigital.whf.bz",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "9/2 Moti Katra, Agra-282003",
+        "addressLocality": "Agra",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "",
+        "addressCountry": "IN"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "09:30",
+          "closes": "18:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/ismartdigitalsolutions",
+        "https://www.instagram.com/ismartdigitalsolutions",
+        "https://www.linkedin.com/company/ismartdigitalsolutions"
+      ]
+    }
+    </script>
+    
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/favicon.svg" alt="iSmart Digital Solutions Logo">
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li class="has-dropdown">
+                            <a href="services/index.html">Services</a>
+                            <ul class="dropdown">
+                                <li><a href="services/seo.html">SEO</a></li>
+                                <li><a href="services/gmb.html">Google Business Profile</a></li>
+                                <li><a href="services/ppc.html">PPC & Meta Ads</a></li>
+                                <li><a href="services/social-media.html">Social Media</a></li>
+                                <li><a href="services/website-development.html">Website Development</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog/index.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-cta">
+                    <a href="tel:+918979205704" class="btn btn-secondary"><i class="fas fa-phone-alt"></i> Call Now</a>
+                </div>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Grow Your Business with Data-Driven Digital Marketing</h1>
+                <p>iSmart Digital Solutions helps businesses in Agra and beyond increase visibility, generate leads, and boost revenue through strategic digital marketing services.</p>
+                <div class="hero-cta">
+                    <a href="contact.html" class="btn btn-primary">Get Free Audit</a>
+                    <a href="https://wa.me/918979205704" class="btn btn-outline"><i class="fab fa-whatsapp"></i> WhatsApp Chat</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200" alt="Digital Marketing Strategy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Digital Marketing Services</h2>
+                <p>Comprehensive solutions to help your business thrive online</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Search Engine Optimization</h3>
+                    <p>Improve your website's visibility on Google and drive organic traffic that converts into customers.</p>
+                    <a href="services/seo.html" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>Google Business Profile</h3>
+                    <p>Optimize your local presence and attract nearby customers searching for your products or services.</p>
+                    <a href="services/gmb.html" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-ad"></i>
+                    </div>
+                    <h3>PPC & Meta Ads</h3>
+                    <p>Drive immediate traffic and leads with targeted paid advertising campaigns on Google and Meta platforms.</p>
+                    <a href="services/ppc.html" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                    <h3>Social Media Marketing</h3>
+                    <p>Build brand awareness and engage with your audience through strategic social media management.</p>
+                    <a href="services/social-media.html" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Website Development</h3>
+                    <p>Create responsive, SEO-friendly websites that convert visitors into customers.</p>
+                    <a href="services/website-development.html" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose iSmart Digital Solutions?</h2>
+                <p>We deliver results that speak for themselves</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Data-Driven Approach</h3>
+                    <p>We make decisions based on analytics and performance metrics, not guesswork.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Expert Team</h3>
+                    <p>Our specialists have years of experience in digital marketing and stay updated with the latest trends.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Transparent Reporting</h3>
+                    <p>Regular updates and comprehensive reports keep you informed about your campaign's performance.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Customized Strategies</h3>
+                    <p>We create tailored solutions that align with your business goals and target audience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Success stories from businesses we've helped grow</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"iSmart Digital Solutions transformed our online presence. Our website traffic has increased by 200% and we're getting consistent leads through Google."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?w=600" alt="Client">
+                        <div class="author-info">
+                            <h4>Rajesh Kumar</h4>
+                            <p>Owner, Agra Handicrafts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Their SEO and Google Business Profile optimization helped us rank #1 for our target keywords in Agra. Highly recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg" alt="Client">
+                        <div class="author-info">
+                            <h4>Priya Sharma</h4>
+                            <p>Director, Taj View Hotels</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Grow Your Business?</h2>
+                <p>Get a free digital marketing audit and discover opportunities to increase your online visibility and leads.</p>
+                <a href="contact.html" class="btn btn-primary">Get Free Audit</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest Insights</h2>
+                <p>Digital marketing tips and strategies to help your business grow</p>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800" alt="SEO Tips">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">June 15, 2023</div>
+                        <h3>10 SEO Tips for Small Businesses in Agra</h3>
+                        <p>Learn how to improve your local search rankings and attract more customers in Agra.</p>
+                        <a href="blog/seo-tips-small-businesses-agra.html" class="btn-text">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg" alt="Google Business Profile">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">May 28, 2023</div>
+                        <h3>How to Optimize Your Google Business Profile for Maximum Visibility</h3>
+                        <p>Step-by-step guide to improve your local presence and attract nearby customers.</p>
+                        <a href="blog/optimize-google-business-profile.html" class="btn-text">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800" alt="Social Media Marketing">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">April 10, 2023</div>
+                        <h3>Social Media Strategies That Drive Real Business Results</h3>
+                        <p>Discover how to create engaging content that converts followers into customers.</p>
+                        <a href="blog/social-media-strategies-business-results.html" class="btn-text">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-cta">
+                <a href="blog.html" class="btn btn-outline">View All Posts</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section class="clients">
+        <div class="container">
+            <div class="section-header">
+                <h2>Trusted By</h2>
+                <p>Businesses that have grown with our digital marketing expertise</p>
+            </div>
+            <div class="client-logos">
+                <div class="client-logo">
+                    <img src="https://images.pexels.com/photos/3184172/pexels-photo-3184172.jpeg" alt="Client Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg" alt="Client Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg" alt="Client Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="https://images.pexels.com/photos/3184611/pexels-photo-3184611.jpeg" alt="Client Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="https://images.pexels.com/photos/3184299/pexels-photo-3184299.jpeg" alt="Client Logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="assets/images/favicon.svg" alt="iSmart Digital Solutions Logo">
+                    </div>
+                    <p>iSmart Digital Solutions is a premier digital marketing agency in Agra, helping businesses grow their online presence and generate leads.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="services/seo.html">Search Engine Optimization</a></li>
+                        <li><a href="services/gmb.html">Google Business Profile</a></li>
+                        <li><a href="services/ppc.html">PPC & Meta Ads</a></li>
+                        <li><a href="services/social-media.html">Social Media Marketing</a></li>
+                        <li><a href="services/website-development.html">Website Development</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Agra, Uttar Pradesh, India</p>
+                        <p><i class="fas fa-phone-alt"></i> <a href="tel:+918979205704">+91-8979205704</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:support@ismartdigital.whf.bz">support@ismartdigital.whf.bz</a></p>
+                        <p><i class="fas fa-clock"></i> Mon – Sat, 9:30 AM – 6:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 iSmart Digital Solutions. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="terms-of-service.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky CTA Buttons -->
+    <div class="sticky-cta">
+        <a href="tel:+918979205704" class="sticky-btn call-btn"><i class="fas fa-phone-alt"></i></a>
+        <a href="https://wa.me/918979205704" class="sticky-btn whatsapp-btn"><i class="fab fa-whatsapp"></i></a>
+        <a href="contact.html" class="sticky-btn audit-btn">Get Free Audit</a>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="assets/js/main.js"></script>
+<!-- JavaScript Files -->
+        <script src="assets/js/main.js"></script>
+        <script>
+            // Preloader
+            window.addEventListener('load', function() {
+                const preloader = document.getElementById('preloader');
+                if (preloader) {
+                    preloader.style.opacity = '0';
+                    setTimeout(function() {
+                        preloader.style.display = 'none';
+                    }, 500);
+                }
+            });
+        </script>
+    </body>
+</html>
