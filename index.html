@@ -1737,7 +1737,19 @@
             this.reset();
         });
     </script>
+        <script>
+document.addEventListener('DOMContentLoaded', function(){
+  const el = document.querySelector('.sticky-btn.audit');
+  if (!el) return;
+  el.addEventListener('click', function(e){
+    e.stopImmediatePropagation(); // prevents other handlers from firing
+    e.preventDefault();
+    window.open(el.href, '_blank', 'noopener');
+  }, true); // use capture phase
+});
+</script>
 </body>
 </html>
+
 
 
