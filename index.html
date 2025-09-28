@@ -1624,12 +1624,13 @@
     <div class="sticky-cta">
         <a href="https://wa.me/918979205704" class="sticky-btn whatsapp">
             <i class="fab fa-whatsapp"></i>
-        </a>
-     <a href="https://ismartdigitalsolutions.github.io/Best-SEO-Company-in-Agra/"
-   class="sticky-btn audit"
-   onclick="window.open(this.href,'_blank','noopener'); return false;">
-  Free Audit
+      <a href="https://ismartdigitalsolutions.github.io/Best-SEO-Company-in-Agra/" 
+   class="sticky-btn audit external-link" 
+   target="_blank" 
+   rel="noopener noreferrer">
+   Free Audit
 </a>
+
 
 
     <script>
@@ -1713,7 +1714,8 @@
         });
         
         // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        document.querySelectorAll('a[href^="#"]:not(.external-link)').forEach(anchor => {
+
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
                 
@@ -1750,6 +1752,7 @@ document.addEventListener('DOMContentLoaded', function(){
 </script>
 </body>
 </html>
+
 
 
 
